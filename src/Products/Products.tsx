@@ -5,19 +5,20 @@ import { IoBagAdd } from "react-icons/io5";
 function Products() {
   return (
     <>
-      <section className="card-conteiner">
+      <section className="card-container">
         <section className="card">
           <img
             src="https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg"
             alt="Shoe"
+            className="card-img"
           />
           <div className="card-details">
             <h3 className="card-title">Shoes</h3>
             <section className="card-reviews">
-              <IoMdStar />
-              <IoMdStar />
-              <IoMdStar />
-              <IoMdStar />
+              <IoMdStar className="rating-star" />
+              <IoMdStar className="rating-star" />
+              <IoMdStar className="rating-star" />
+              <IoMdStar className="rating-star" />
               <span className="total-reviews">4</span>
             </section>
             <section className="card-price">
@@ -25,7 +26,7 @@ function Products() {
                 <del>$300</del>$200
               </div>
               <div className="bag">
-                <IoBagAdd />
+                <IoBagAdd className="bag-icon" />
               </div>
             </section>
           </div>
