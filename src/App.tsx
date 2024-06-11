@@ -7,12 +7,10 @@ import "./index.css";
 function App() {
   return (
     <>
-      <p>Ciao</p>
-      <p>miao</p>
+      <Sidebar />
       <Navigation />
       <Recommended />
       <Products />
-      <Sidebar />
     </>
   );
 }
