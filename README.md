@@ -1,3 +1,3 @@
 # React + TypeScript + Vite
 
-React Shoe Ecommerce WIP
+React Shoe Ecommerce front page with filter
