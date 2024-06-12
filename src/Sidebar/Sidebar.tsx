@@ -4,7 +4,8 @@ import Price from "./Price/Price";
 import Colors from "./Colors/Colors";
 import { GrCart } from "react-icons/gr";
 
-function Sidebar() {
+function Sidebar({ handleChange }) {
+  console.log(handleChange);
   return (
     <>
       <section className="sidebar">
@@ -13,9 +14,9 @@ function Sidebar() {
             <GrCart />
           </h1>
         </div>
-        <Category />
-        <Price />
-        <Colors />
+        <Category handleChange={handleChange} />
+        <Price handleChange={handleChange} />
+        <Colors handleChange={handleChange} />
       </section>
     </>
   );
